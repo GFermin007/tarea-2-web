@@ -1,29 +1,24 @@
 <template>
-  <div class="hello">
-    Página 2
-  </div>
+    <div class="container-fluid back-back">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Bienvenidos a <span class="text-bold text-info">Buenos</span>Trailers</h1>
+                <p class="lead">Donde podras encontrar los trailers de tus peliculas favoritas y las de toda la familia.</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'About'
+  name: 'Home'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  body{
+    background-image: url('http://townsquare.media/site/295/files/2019/01/2019-Movies-collage-option-2.jpg?w=980&q=75');
+    background-size: cover;
+  }
 </style>

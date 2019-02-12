@@ -7,7 +7,6 @@
             <div class="card-body">
                 <h5 class="card-title">{{ title }}</h5>
                 <p class="card-text">{{ text }}</p>
-                <router-link :to="href" class="btn btn-primary">Click here</router-link>
             </div>
         </div>
     </div>
@@ -22,5 +21,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+p{
+    text-align: justify;
+}
 </style>

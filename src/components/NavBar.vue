@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand text-white" href="#"><span class="text-bold text-info">Buenos</span>Trailers</a>
+            <router-link class="navbar-brand text-white" to="/"><span class="text-bold text-info">Buenos</span>Trailers</router-link>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <router-link class="nav-link text-white" to="/home">Home</router-link>
+                  <router-link class="nav-link text-white" to="/">Home</router-link>
                 </li>
                 <li class="nav-item">
                   <router-link class="nav-link text-white" to="/trailers">Trailers</router-link>

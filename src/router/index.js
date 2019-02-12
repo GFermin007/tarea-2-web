@@ -3,13 +3,14 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Trailers from '@/components/Trailers'
 import Contact from '@/components/Contact'
-import Trailer from '@/components/Trailer'
+import TrailerDetail from '@/components/TrailerDetail'
 
 
 Vue.use(Router)
 
 export default new Router({
-    routes: [{
+    routes: [
+        {
             path: '/',
             name: 'Home',
             component: Home
@@ -26,8 +27,8 @@ export default new Router({
         },
         {
             path: '/trailer/:id',
-            name: 'Trailer',
-            component: Trailer
+            name: 'TrailerDetail',
+            component: TrailerDetail
         }
     ]
 })
