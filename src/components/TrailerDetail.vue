@@ -28,9 +28,8 @@
 
             // console.log(this.$route.params.id);
             this.movie = this.movies.filter((movie) => {
-                return movie.id === this.$route.params.index;
+                return movie.index === parseInt(this.$route.params.id);
             })[0];
-            console.log(this.movie);
         },
         components: {
             TrailerBox
