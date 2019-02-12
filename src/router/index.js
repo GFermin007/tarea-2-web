@@ -9,7 +9,8 @@ import TrailerDetail from '@/components/TrailerDetail'
 Vue.use(Router)
 
 export default new Router({
-    routes: [
+    routes: 
+    [
         {
             path: '/',
             name: 'Home',

@@ -18,5 +18,11 @@ import Footer from './components/Footer.vue';
           Footer
         }
     }
-    
+
 </script>
+
+<style>
+  body {
+      background-color: #f5f5f5;
+  }
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid back-back">
+    <div>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Bienvenidos a <span class="text-bold text-info">Buenos</span>Trailers</h1>
@@ -16,9 +16,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  body{
-    background-image: url('http://townsquare.media/site/295/files/2019/01/2019-Movies-collage-option-2.jpg?w=980&q=75');
-    background-size: cover;
-  }
+<style>
 </style>

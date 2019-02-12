@@ -1,13 +1,11 @@
 <template>
     <div>
         <div class="container">
-            <div class="row mt-4 mb-4">
-                <trailer-box v-for="(movie, index) in movies" :key="index"
+            <div class="row pt-4">
+                <trailer-box
                     :title="movie.title"
                     :text="movie.text"
-                    :href="movie.href"
-                    :label="movie.label"
-                    :img="movie.img">
+					:trailer="movie.trailer">
                 </trailer-box>
             </div>
         </div>
@@ -16,9 +14,24 @@
 
 <script>
     import TrailerBox from './TrailerBox.vue';
+	import MovieService from '../services/MovieService.js';
 
     export default {
         name: 'TrailerDetail',
+        data: () => {
+            return {
+                movies: MovieService,
+                movie: {}
+            }
+        },
+        created () {
+
+            // console.log(this.$route.params.id);
+            this.movie = this.movies.filter((movie) => {
+                return movie.id === this.$route.params.index;
+            })[0];
+            console.log(this.movie);
+        },
         components: {
             TrailerBox
         }
@@ -27,18 +40,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
