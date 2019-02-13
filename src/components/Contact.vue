@@ -2,7 +2,7 @@
 	<template>
       <div class="d-flex flex-row justify-content-center">
         <div class="col-md-6 mt-5 shadow-lg p-3 mb-5 rounded text-white text-center">
-            <h1 class="text-dark">Con<span class="text-info">tactanos</span></h1>
+            <h1>Con<span class="text-info">tactanos</span></h1>
             <form>
                 <div class="form-group">
                   <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre. . .">

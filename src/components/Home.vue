@@ -11,11 +11,14 @@
 
 <script>
 export default {
-  name: 'Home'
+    name: 'Home'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scope>
-    
+    body.home{
+        background-image: url("http://townsquare.media/site/295/files/2019/01/2019-Movies-collage-option-2.jpg?w=980&q=75");
+        background-size: cover;
+    }
 </style>
