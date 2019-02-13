@@ -4,7 +4,7 @@
             <div class="row mt-4 mb-4">
                 <cajita v-for="(movie, index) in movies" :key="index"
                     :title="movie.title"
-                    :text="movie.text"
+                    :text="truncate(movie.text)"
                     :href="movie.href"
                     :img="movie.img">
                 </cajita>
@@ -26,15 +26,15 @@
         },
         components: {
             Cajita
-        }
+        },
+        methods: {
+            truncate(text){
+                return text.substring(0, 70) + ". . .";
+            }
+        },
     }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-.back-back{
-    background-image: url('https://www.bolsamania.com/cine/wp-content/uploads/2019/01/46-1.jpg');
-    background-size: cover;
-}
 </style>

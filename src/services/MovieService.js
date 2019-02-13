@@ -65,4 +65,36 @@ export default [
 			img: 'https://www.bolsamania.com/cine/wp-content/uploads/2019/01/46-1.jpg?w=640',
 			trailer: 'https://www.youtube.com/embed/95ghQs5AmNk'
 		},
+		{
+			index: 8,
+			title: 'Shazam',
+			text: 'Todos tenemos un superhéroe dentro de nosotros, solo se necesita un poco de magia para llevarlo a cabo. En el caso de Billy Batson, gritando una palabra: ¡SHAZAM! - este niño adoptivo de 14 años puede convertirse en el superhéroe adulto Shazam.',
+			href: '/trailer/4',
+			img: 'https://www.mdcu-comics.fr/uploads/news/2018/12/news_illustre_1546272895_522.jpg?w=640',
+			trailer: 'https://www.youtube.com/embed/-oD7B7oiBtw'
+		},
+		{
+			index: 9,
+			title: 'Aquaman',
+			text: 'Arthur Curry, el heredero nacido en el hombre del reino submarino de Atlantis, emprende una búsqueda para evitar una guerra entre los mundos del océano y la tierra.',
+			href: '/trailer/5',
+			img: 'http://mouse.latercera.com/wp-content/uploads/2019/02/aquaman.jpg?w=640',
+			trailer: 'https://www.youtube.com/embed/ZmqJJqFX_CU'
+		},
+		{
+			index: 10,
+			title: 'Spiderman: Into the spider-verse',
+			text: 'El adolescente Miles Morales se convierte en el Hombre Araña de su realidad, cruzándose en su camino con cinco contrapartes de otras dimensiones para detener una amenaza para todas las realidades.',
+			href: '/trailer/6',
+			img: 'http://www.viax.cl/wp-content/uploads/2018/12/da2b80753295c7fb5c3550eabbddf110.jpg?w=640',
+			trailer: 'https://www.youtube.com/embed/tg52up16eq0'
+		},
+		{
+			index: 11,
+			title: 'Glass',
+			text: 'El guardia de seguridad David Dunn usa sus habilidades sobrenaturales para rastrear a Kevin Wendell Crumb, un hombre perturbado que tiene veinticuatro personalidades.',
+			href: '/trailer/7',
+			img: 'https://www.bolsamania.com/cine/wp-content/uploads/2019/01/46-1.jpg?w=640',
+			trailer: 'https://www.youtube.com/embed/95ghQs5AmNk'
+		},
 	]

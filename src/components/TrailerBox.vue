@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 mb-4 mt-5">
+			<div class="col-sm-12 mb-4 mt-2">
 				<div class="card p-2">
 					<iframe width="1092" height="954" :src="trailer" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="card-body">

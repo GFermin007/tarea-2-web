@@ -24,4 +24,10 @@
 p{
     text-align: justify;
 }
+.card-title{
+    min-height: 50px;
+}
+.card-text{
+    min-height: 100px;
+}
 </style>
